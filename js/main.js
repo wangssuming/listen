@@ -38,6 +38,34 @@ document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.he
 
 var songs = [
     {
+        'name': '國王與乞丐',
+        'artist': '周深',
+        'album': 'n/a',
+        'url': 'music/國王與乞丐.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '煙花易冷',
+        'artist': '周深',
+        'album': 'n/a',
+        'url': 'music/煙花易冷.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '好好',
+        'artist': '周深',
+        'album': 'n/a',
+        'url': 'music/好好.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '世界末日',
+        'artist': '吳青峰',
+        'album': 'n/a',
+        'url': 'music/世界末日.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
         'name': '我還沒有作好被打倒的準備',
         'artist': '理想混蛋',
         'album': 'n/a',
