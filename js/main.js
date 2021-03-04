@@ -38,8 +38,120 @@ document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.he
 
 var songs = [
     {
+        'name': '慢慢喜歡你',
+        'artist': '徐佳瑩',
+        'album': 'n/a',
+        'url': 'music/慢慢喜歡你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '幾分之幾',
+        'artist': '盧廣仲',
+        'album': 'n/a',
+        'url': 'music/幾分之幾.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '尋人啟事',
+        'artist': '徐佳瑩',
+        'album': 'n/a',
+        'url': 'music/尋人啟事.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '無眠',
+        'artist': '吳青峰',
+        'album': 'n/a',
+        'url': 'music/無眠.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '窗',
+        'artist': '吳青峰',
+        'album': 'n/a',
+        'url': 'music/窗.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '藍色眼睛',
+        'artist': '梁文音',
+        'album': 'n/a',
+        'url': 'music/藍色眼睛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '追光者',
+        'artist': '岑寧兒',
+        'album': 'n/a',
+        'url': 'music/追光者.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '調色盤',
+        'artist': '徐佳瑩',
+        'album': 'n/a',
+        'url': 'music/調色盤.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '誰',
+        'artist': '李友廷',
+        'album': 'n/a',
+        'url': 'music/誰.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '心拍數0822',
+        'artist': 'Akie秋繪',
+        'album': 'n/a',
+        'url': 'music/心拍數0822.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '毛不易精選串燒',
+        'artist': '毛不易',
+        'album': 'n/a',
+        'url': 'music/毛不易精選串燒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '樹海森',
+        'artist': 'None',
+        'album': 'n/a',
+        'url': 'music/樹海森.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'again',
+        'artist': '96貓',
+        'album': 'n/a',
+        'url': 'music/again.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'mother',
+        'artist': '96貓',
+        'album': 'n/a',
+        'url': 'music/mother.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '天之弱',
+        'artist': '96貓',
+        'album': 'n/a',
+        'url': 'music/天之弱.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Eine Kleine',
+        'artist': '米津玄師',
+        'album': 'n/a',
+        'url': 'music/Eine Kleine.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
         'name': '國王與乞丐',
-        'artist': '周深',
+        'artist': '華晨宇',
         'album': 'n/a',
         'url': 'music/國王與乞丐.mp3',
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
