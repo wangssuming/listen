@@ -38,10 +38,129 @@ document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.he
 
 var songs = [
     {
-        'name': '慢慢喜歡你',
-        'artist': '徐佳瑩',
+        'name': '兜圈',
+        'artist': '林宥嘉',
         'album': 'n/a',
-        'url': 'music/慢慢喜歡你.mp3',
+        'url': 'music/兜圈.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Mojito',
+        'artist': '周杰倫',
+        'album': 'n/a',
+        'url': 'music/Mojito.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '星晴',
+        'artist': '周杰倫',
+        'album': 'n/a',
+        'url': 'music/星晴.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '因為愛',
+        'artist': '韋禮安',
+        'album': 'n/a',
+        'url': 'music/因為愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '偽裝',
+        'artist': '碧琪',
+        'album': 'n/a',
+        'url': 'music/偽裝.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '愛情怎麼了嗎',
+        'artist': '盧廣仲',
+        'album': 'n/a',
+        'url': 'music/愛情怎麼了嗎.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '行星',
+        'artist': '理想混蛋',
+        'album': 'n/a',
+        'url': 'music/行星.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '如何忘記你',
+        'artist': '王若凡',
+        'album': 'n/a',
+        'url': 'music/如何忘記你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '懸日',
+        'artist': '田馥甄',
+        'album': 'n/a',
+        'url': 'music/懸日.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '滯留鋒',
+        'artist': '理想混蛋',
+        'album': 'n/a',
+        'url': 'music/滯留鋒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '願溫柔的妳被世界溫柔以待',
+        'artist': '綠繡眼',
+        'album': 'n/a',
+        'url': 'music/願溫柔的妳被世界溫柔以待.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '惡作劇',
+        'artist': '王藍茵',
+        'album': 'n/a',
+        'url': 'music/惡作劇.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '台灣二十年偶像劇神曲串燒1',
+        'artist': 'None',
+        'album': 'n/a',
+        'url': 'music/台灣二十年偶像劇神曲串燒1.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '台灣二十年偶像劇神曲串燒2',
+        'artist': 'None',
+        'album': 'n/a',
+        'url': 'music/台灣二十年偶像劇神曲串燒2.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我喜歡你',
+        'artist': '洪安妮',
+        'album': 'n/a',
+        'url': 'music/我喜歡你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '但願你笑是真的開心',
+        'artist': '洪安妮',
+        'album': 'n/a',
+        'url': 'music/但願你笑是真的開心.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'You  Me',
+        'artist': '林逸欣',
+        'album': 'n/a',
+        'url': 'music/You  Me.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Perfect',
+        'artist': '鄧典',
+        'album': 'n/a',
+        'url': 'music/Perfect.mp3',
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
     },
     {
