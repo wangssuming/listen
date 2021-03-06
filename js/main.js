@@ -38,6 +38,132 @@ document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.he
 
 var songs = [
     {
+        'name': '飛鳥和蟬',
+        'artist': '蔡恩雨',
+        'album': 'n/a',
+        'url': 'music/飛鳥和蟬.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '不想上班',
+        'artist': '黃明志',
+        'album': 'n/a',
+        'url': 'music/不想上班.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '伍佰',
+        'artist': '黃明志',
+        'album': 'n/a',
+        'url': 'music/伍佰.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '超跑情人夢',
+        'artist': '卜學亮',
+        'album': 'n/a',
+        'url': 'music/超跑情人夢.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '老媽最常說的十句話',
+        'artist': '八三夭831',
+        'album': 'n/a',
+        'url': 'music/老媽最常說的十句話.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '阿媽我真的吃飽了',
+        'artist': '曾博恩',
+        'album': 'n/a',
+        'url': 'music/阿媽我真的吃飽了.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '大悲咒',
+        'artist': '藥師寺',
+        'album': 'n/a',
+        'url': 'music/大悲咒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'that',
+        'artist': 'halyosy',
+        'album': 'n/a',
+        'url': 'music/that.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Connecting',
+        'artist': 'halyosy',
+        'album': 'n/a',
+        'url': 'music/Connecting.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '般若心經',
+        'artist': 'halyosy',
+        'album': 'n/a',
+        'url': 'music/般若心經.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '知得太多所以瘋了',
+        'artist': '初音ミク',
+        'album': 'n/a',
+        'url': 'music/知得太多所以瘋了.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Mother',
+        'artist': '96貓',
+        'album': 'n/a',
+        'url': 'music/Mother.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '灰色と青',
+        'artist': '米津玄師',
+        'album': 'n/a',
+        'url': 'music/灰色と青.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '彼女使用說明書',
+        'artist': 'kobasolo',
+        'album': 'n/a',
+        'url': 'music/彼女使用說明書.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Lemon',
+        'artist': '米津玄師',
+        'album': 'n/a',
+        'url': 'music/Lemon.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '瑟魯之歌',
+        'artist': '地海戰記',
+        'album': 'n/a',
+        'url': 'music/瑟魯之歌.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'remember',
+        'artist': 'Uru',
+        'album': 'n/a',
+        'url': 'music/remember.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '夏目友人帳串燒',
+        'artist': 'None',
+        'album': 'n/a',
+        'url': 'music/夏目友人帳串燒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
         'name': '兜圈',
         'artist': '林宥嘉',
         'album': 'n/a',
@@ -248,10 +374,10 @@ var songs = [
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
     },
     {
-        'name': 'mother',
+        'name': '黑白貓',
         'artist': '96貓',
         'album': 'n/a',
-        'url': 'music/mother.mp3',
+        'url': 'music/黑白貓.mp3',
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
     },
     {
