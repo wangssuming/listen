@@ -38,6 +38,1021 @@ document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.he
 
 var songs = [
     {
+        'name': '在你的雙眼遇見',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/在你的雙眼遇見.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '湖心里的船',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/湖心里的船.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '微光',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/微光.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '星河',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/星河.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '後來',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/後來.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '把話說完',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/把話說完.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '象牙舟',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/象牙舟.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '吳青峰翻唱合輯',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/吳青峰翻唱合輯.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '皆可',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/皆可.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '蘇打綠串燒',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/蘇打綠串燒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '他舉起右手點名',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/他舉起右手點名.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '痛快的哀艷',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/痛快的哀艷.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '彼此',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/彼此.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '距離',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/距離.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '可惜不是你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/可惜不是你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '分手快樂',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/分手快樂.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '孤單北半球',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/孤單北半球.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '寧夏',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/寧夏.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '曖昧',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/曖昧.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我們都傻',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我們都傻.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '心牆',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/心牆.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '小幸運',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/小幸運.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '那些年',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/那些年.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '失落沙洲',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/失落沙洲.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '浮生未歇',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/浮生未歇.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '誰 廖俊濤',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/誰 廖俊濤.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '絲路',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/絲路.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '偶陣雨',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/偶陣雨.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '無條件為你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/無條件為你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '如果有一天',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/如果有一天.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Fly away',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/Fly away.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '瘦瘦的',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/瘦瘦的.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '小手拉大手',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/小手拉大手.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '暖暖',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/暖暖.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '兒歌',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/兒歌.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '親親',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/親親.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '夏天的風',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/夏天的風.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '不想睡',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/不想睡.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '缺氧',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/缺氧.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '青春住了誰',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/青春住了誰.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '年輪說',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/年輪說.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '路過人間',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/路過人間.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '微加幸福',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/微加幸福.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '獨家記憶',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/獨家記憶.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '好朋友只是朋友',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/好朋友只是朋友.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '美好的旅行',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/美好的旅行.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '如果有如果',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/如果有如果.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '你的情歌',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/你的情歌.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '給我你的愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/給我你的愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '成全',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/成全.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '浪費',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/浪費.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '煙火裡的塵埃',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/煙火裡的塵埃.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '蜉蝣',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/蜉蝣.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '孩子',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/孩子.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '與火星的孩子對話',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/與火星的孩子對話.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '易燃易爆炸',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/易燃易爆炸.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '無聊人',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/無聊人.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我離孤單幾公里',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我離孤單幾公里.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '荒野魂鬥羅',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/荒野魂鬥羅.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '地球之鹽',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/地球之鹽.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '你要相信這不是最後一天',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/你要相信這不是最後一天.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我的滑板鞋2016',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我的滑板鞋2016.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '異類',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/異類.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '智商二五零',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/智商二五零.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '五月天',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/五月天.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '私奔到月球',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/私奔到月球.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '別說對不起',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/別說對不起.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '天堂',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/天堂.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '第一次',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/第一次.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '聽袁惟仁彈吉他',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/聽袁惟仁彈吉他.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '金鐘罩鐵布衫',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/金鐘罩鐵布衫.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '星瞬',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/星瞬.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '全世界都停電',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/全世界都停電.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '好眼淚壞眼淚',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/好眼淚壞眼淚.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '愛笑的眼睛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/愛笑的眼睛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '愛你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/愛你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '當你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/當你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '愛的天國',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/愛的天國.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '對望',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/對望.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '北極星的眼淚',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/北極星的眼淚.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我可以',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我可以.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '為你寫詩',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/為你寫詩.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '牽牽牽手',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/牽牽牽手.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '地球上最浪漫的一首歌',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/地球上最浪漫的一首歌.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '說好不哭',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/說好不哭.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '夜曲',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/夜曲.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '止戰之殤',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/止戰之殤.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '以父之名',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/以父之名.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '半島鐵盒',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/半島鐵盒.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '簡單愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/簡單愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '時光機',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/時光機.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '稻香',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/稻香.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '有點甜',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/有點甜.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '威廉古堡',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/威廉古堡.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '雙截棍',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/雙截棍.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '以後別做朋友',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/以後別做朋友.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '擱淺',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/擱淺.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '雪落下的聲音',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/雪落下的聲音.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '大魚',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/大鱼.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '簡簡單單',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/簡簡單單.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '豆漿油條',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/豆漿油條.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '她說',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/她說.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '被風吹過的夏天',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/被風吹過的夏天.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '期待愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/期待愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '發現愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/發現愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '表達愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/表達愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '小瓶子',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/小瓶子.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我很想愛他',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我很想愛他.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '平行線',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/平行線.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '櫻花草',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/櫻花草.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '甜甜圈 Sweety',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/甜甜圈 Sweety.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '夠愛',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/夠愛.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '甜甜圈 小薰阿本',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/甜甜圈 小薰阿本.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Better',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/Better.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '月光 Moonlight',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/月光 Moonlight.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '觸電',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/觸電.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我和你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我和你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '星瞬',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/星瞬.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '你是我心內的一首歌',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/你是我心內的一首歌.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '今天妳要嫁給我',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/今天妳要嫁給我.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '珊瑚海',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/珊瑚海.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '屋頂',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/屋頂.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '明明很愛你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/明明很愛你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '愛情',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/愛情.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '對你有感覺',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/對你有感覺.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '只能抱著你',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/只能抱著你.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '心愛的',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/心愛的.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '多少',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/多少.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '聖誕結',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/聖誕結.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'K歌之王國',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/K歌之王國.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '十年',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/十年.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '浮誇',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/浮誇.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我們',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我們.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '飛機',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/飛機.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '生生',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/生生.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '老街',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/老街.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '麻雀',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/麻雀.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '我睡不著',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/我睡不著.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '半生緣',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/半生緣.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '末日飛船',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/末日飛船.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '陪我長大',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/陪我長大.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '不哭',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/不哭.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Scarborough Fair',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/Scarborough Fair.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': 'Try to remember',
+        'artist': 'Anly',
+        'album': 'n/a',
+        'url': 'music/Try to remember.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
+        'name': '故事細膩',
+        'artist': '林俊傑',
+        'album': 'n/a',
+        'url': 'music/故事細膩.mp3',
+        'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
+    },
+    {
         'name': '星瞬',
         'artist': 'Anly',
         'album': 'n/a',
@@ -584,10 +1599,10 @@ var songs = [
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
     },
     {
-        'name': '誰',
+        'name': '誰 李友廷',
         'artist': '李友廷',
         'album': 'n/a',
-        'url': 'music/誰.mp3',
+        'url': 'music/誰李友廷.mp3',
         'cover_art_url': 'https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg'
     },
     {
